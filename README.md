@@ -10,12 +10,13 @@ c_ij:i到j的运费
 u_i:辅助变量
 $$
 + TSP问题
-  $$
-  Min \sum_{i \in N}{\sum_{j \in N}{c_{ij}x_{ij}}}
-  
-  s.t.
-  
-  \sum_{j \in N}{x_{ij}} = \sum_{j \in N}{x_{ij}} = 1\ \ \ \ i \in N
-  
-  u_j - u_i + M(1-x{ij}) \geq 0
-  $$
+$$
+Min \sum_{i \in N}{\sum_{j \in N}{c_{ij}x_{ij}}}
+
+s.t.
+
+\sum_{j \in N}{x_{ij}} = \sum_{j \in N}{x_{ij}} = 1\ \ \ \ i \in N
+
+u_j - u_i + M(1-x{ij}) \geq 0
+
+$$
